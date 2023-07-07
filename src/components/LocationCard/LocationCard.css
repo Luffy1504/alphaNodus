@@ -1,0 +1,19 @@
+.card {
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-bottom: 14px;
+  padding: 16px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .headings {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .lastUpdated {
+    display: flex;
+    justify-content: space-between;
+  }
+}
