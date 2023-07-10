@@ -10,6 +10,9 @@ export const router = createBrowserRouter([
   },
   {
     path: "/location-info",
-    element: <LocationDetails/>
+    children: [{
+      path: ":id",
+      element: <LocationDetails/>
+    }],
   }
 ]);
